@@ -1,0 +1,7 @@
+# dependencies
+/node_modules
+/dist/*
+/package-lock.json
+/src/logs
+.idea
+/src/logos
