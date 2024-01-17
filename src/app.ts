@@ -18,7 +18,7 @@ app.use ("/users", router);
 app.use ("/city", cityRouter);
 app.use ("/sector", sectorRouter);
 
-const port = process.env.NODE_SERVER_PORT | 3000;
+const port = process.env.NODE_SERVER_PORT || 9006;
 
 app.use(requestLogger);
 //http response headers
